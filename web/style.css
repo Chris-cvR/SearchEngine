@@ -1,0 +1,166 @@
+/* https://www.color-hex.com/color-palette/55334 */
+
+
+div {
+    color:white;
+}
+
+#catbutton {
+    -webkit-font-smoothing: antialiased;
+    width: 5em;
+    height: 5em;
+    background-color: green;
+    border-radius: 360px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    z-index: 88899999990999999999;
+    margin:auto;
+}
+
+a {
+    color:#c51f5d;
+}
+html {
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    background: #141d26;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #243447, #141d26);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #243447, #141d26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+
+            }
+
+
+.title, .search-container { 
+    color:white;
+    display:flex;
+    margin:auto;
+    justify-content: center;
+}
+
+.results-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 25%;
+}
+
+#responsesize {
+    color:white;
+}
+
+.searchBox {
+    left: 50%;
+    background: #141d26;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+.searchBox:hover > #searchInput, #searchInput:focus {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.searchBox:hover > #searchButton {
+  background: white;
+  color : #141d26;
+}
+
+#searchButton {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #141d26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+#searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+
+}
+
+@media screen and (max-width: 620px) {
+.searchBox:hover > #searchInput {
+    width: 150px;
+    padding: 0 6px;
+}
+}
+
+
+/* Style the tab */
+.tab {
+    color: white;
+    background-color: #f1f1f1;
+    margin: auto;
+    width: max-content;
+    display: flex;
+    max-width: 13em;
+    overflow: scroll;
+    min-height: 4em;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    color: white;
+    padding: 6px 12px;
+    border-top: none;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+
+  .index-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: fit-content;
+    min-height: 354px;
+  }
